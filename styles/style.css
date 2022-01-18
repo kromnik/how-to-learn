@@ -133,7 +133,7 @@
   margin: 0 auto;
 }
 
-.section-title_theme_light {
+.section-title {
   width: 60%;
   font-size: 60px;
   line-height: 1.15;
@@ -142,7 +142,7 @@
   margin: 0 auto;
 }
 
-.section-subtitle_theme_light {
+.section-subtitle {
   width: 60%;
   font-size: 24px;
   line-height: 34px;
@@ -151,7 +151,7 @@
   margin: 20px auto 0;
 }
 
-.table_theme_light {
+.table {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -161,19 +161,19 @@
   list-style-type:none;
 }
 
-.table__cell_theme_light {
+.table__cell {
   width: 250px;
   margin-top: 60px;
 }
 
-.table__heading_theme_light {
+.table__heading {
   margin: 0 auto;
   font-size: 24px;
   line-height: 1.15;
   font-weight:bold;
 }
 
-.table__text_theme_light {
+.table__text {
   font-size: 18px;
   line-height: 1.2;
   font-weight:normal;
@@ -231,33 +231,14 @@
 }
 
 .section-title_theme_dark {
-  width: 60%;
-  font-size: 60px;
-  line-height: 1.15;
-  font-weight:bold;
-  text-align:center;
-  margin: 0 auto;
   z-index: 2;
 }
 
 .section-subtitle_theme_dark {
-  width: 60%;
-  font-size: 24px;
-  line-height: 34px;
-  font-weight:normal;
-  text-align:center;
-  margin: 20px auto 0;
   z-index: 2;
 }
 
 .table_theme_dark {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  width: 1100px;
-  margin: 0 auto;
-  padding: 0;
-  list-style-type:none;
   counter-reset: number_cell; /* Задаём имя счетчика и обнуляем его */
   z-index: 2;
 }
@@ -268,23 +249,9 @@
   z-index: 2;
 }
 
-.table__heading_theme_dark {
-  margin: 0 auto;
-}
-
 .table__heading_theme_dark::before {
   content: counter(number_cell); /* Выводим число */
   counter-increment: number_cell; /* Увеличиваем значение счётчика */
-  font-size: 24px;
-  line-height: 1.15;
-  font-weight:bold;
-}
-
-.table__text_theme_dark {
-  font-size: 18px;
-  line-height: 1.2;
-  font-weight:normal;
-  margin: 20px 0 0;
 }
 
 .kaufman__triangle {
