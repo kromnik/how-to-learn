@@ -1,0 +1,4 @@
+.table__heading_theme_dark::before {
+  content: counter(number_cell); /* Выводим число */
+  counter-increment: number_cell; /* Увеличиваем значение счётчика */
+}

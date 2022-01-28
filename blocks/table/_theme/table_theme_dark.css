@@ -1,0 +1,4 @@
+.table_theme_dark {
+  counter-reset: number_cell; /* Задаём имя счетчика и обнуляем его */
+  z-index: 2;
+}
