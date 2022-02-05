@@ -1,7 +1,9 @@
 .header__title {
+  position: absolute;
   box-sizing: border-box;
-  align-self:center;
-  margin: 0 0 0 64px;
+  align-self: center;
+  margin: 0;
+  left: 64px;
   width: 730px;
   font-size: 102px;
   line-height: 96px;
